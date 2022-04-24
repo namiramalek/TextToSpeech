@@ -16,7 +16,7 @@ app.debug = True
 #####
 # services initialization
 #####
-storage_location = 'contentcen301178112.aws.ai'
+storage_location = 'S3bucket'
 storage_service = storage_service.StorageService(storage_location)
 recognition_service = recognition_service.RecognitionService(storage_service)
 translation_service = translation_service.TranslationService()
